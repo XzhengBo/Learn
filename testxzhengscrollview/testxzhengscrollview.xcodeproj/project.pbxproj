@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE72C103409D888DC2835521 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7DB1BA862F190E23C97DB /* libPods.a */; };
+		F6A332CA1BE3511E001F52CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A332C91BE3511E001F52CC /* main.m */; };
+		F6A332CD1BE3511E001F52CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A332CC1BE3511E001F52CC /* AppDelegate.m */; };
+		F6A332D01BE3511E001F52CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A332CF1BE3511E001F52CC /* ViewController.m */; };
+		F6A332D51BE3511E001F52CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A332D41BE3511E001F52CC /* Assets.xcassets */; };
+		F6A332E31BE3511E001F52CC /* testxzhengscrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A332E21BE3511E001F52CC /* testxzhengscrollviewTests.m */; };
+		F6A332EE1BE3511E001F52CC /* testxzhengscrollviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A332ED1BE3511E001F52CC /* testxzhengscrollviewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A332DF1BE3511E001F52CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A332BD1BE3511E001F52CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A332C41BE3511E001F52CC;
+			remoteInfo = testxzhengscrollview;
+		};
+		F6A332EA1BE3511E001F52CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A332BD1BE3511E001F52CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A332C41BE3511E001F52CC;
+			remoteInfo = testxzhengscrollview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AF7EFC42650CA1648F2FD47 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		410F334969B03D20A1694EAF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD7DB1BA862F190E23C97DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A332C51BE3511E001F52CC /* testxzhengscrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testxzhengscrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A332C91BE3511E001F52CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A332CB1BE3511E001F52CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A332CC1BE3511E001F52CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A332CE1BE3511E001F52CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A332CF1BE3511E001F52CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A332D41BE3511E001F52CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A332D91BE3511E001F52CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A332DE1BE3511E001F52CC /* testxzhengscrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testxzhengscrollviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A332E21BE3511E001F52CC /* testxzhengscrollviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testxzhengscrollviewTests.m; sourceTree = "<group>"; };
+		F6A332E41BE3511E001F52CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A332E91BE3511E001F52CC /* testxzhengscrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testxzhengscrollviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A332ED1BE3511E001F52CC /* testxzhengscrollviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testxzhengscrollviewUITests.m; sourceTree = "<group>"; };
+		F6A332EF1BE3511E001F52CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A332C21BE3511E001F52CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE72C103409D888DC2835521 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332DB1BE3511E001F52CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332E61BE3511E001F52CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1FF6DE436852DB9476F1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				410F334969B03D20A1694EAF /* Pods.debug.xcconfig */,
+				2AF7EFC42650CA1648F2FD47 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C599CB68B889B65D87024DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7DB1BA862F190E23C97DB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6A332BC1BE3511E001F52CC = {
+			isa = PBXGroup;
+			children = (
+				F6A332C71BE3511E001F52CC /* testxzhengscrollview */,
+				F6A332E11BE3511E001F52CC /* testxzhengscrollviewTests */,
+				F6A332EC1BE3511E001F52CC /* testxzhengscrollviewUITests */,
+				F6A332C61BE3511E001F52CC /* Products */,
+				4C1FF6DE436852DB9476F1EC /* Pods */,
+				7C599CB68B889B65D87024DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A332C61BE3511E001F52CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A332C51BE3511E001F52CC /* testxzhengscrollview.app */,
+				F6A332DE1BE3511E001F52CC /* testxzhengscrollviewTests.xctest */,
+				F6A332E91BE3511E001F52CC /* testxzhengscrollviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A332C71BE3511E001F52CC /* testxzhengscrollview */ = {
+			isa = PBXGroup;
+			children = (
+				F6A332CB1BE3511E001F52CC /* AppDelegate.h */,
+				F6A332CC1BE3511E001F52CC /* AppDelegate.m */,
+				F6A332CE1BE3511E001F52CC /* ViewController.h */,
+				F6A332CF1BE3511E001F52CC /* ViewController.m */,
+				F6A332D41BE3511E001F52CC /* Assets.xcassets */,
+				F6A332D91BE3511E001F52CC /* Info.plist */,
+				F6A332C81BE3511E001F52CC /* Supporting Files */,
+			);
+			path = testxzhengscrollview;
+			sourceTree = "<group>";
+		};
+		F6A332C81BE3511E001F52CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A332C91BE3511E001F52CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A332E11BE3511E001F52CC /* testxzhengscrollviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A332E21BE3511E001F52CC /* testxzhengscrollviewTests.m */,
+				F6A332E41BE3511E001F52CC /* Info.plist */,
+			);
+			path = testxzhengscrollviewTests;
+			sourceTree = "<group>";
+		};
+		F6A332EC1BE3511E001F52CC /* testxzhengscrollviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A332ED1BE3511E001F52CC /* testxzhengscrollviewUITests.m */,
+				F6A332EF1BE3511E001F52CC /* Info.plist */,
+			);
+			path = testxzhengscrollviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A332C41BE3511E001F52CC /* testxzhengscrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A332F21BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollview" */;
+			buildPhases = (
+				F55CE74C94363D924197F295 /* Check Pods Manifest.lock */,
+				F6A332C11BE3511E001F52CC /* Sources */,
+				F6A332C21BE3511E001F52CC /* Frameworks */,
+				F6A332C31BE3511E001F52CC /* Resources */,
+				DBC76B952DF2BC4264A41CFE /* Embed Pods Frameworks */,
+				4C73378B33678DCA9A4F877D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testxzhengscrollview;
+			productName = testxzhengscrollview;
+			productReference = F6A332C51BE3511E001F52CC /* testxzhengscrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A332DD1BE3511E001F52CC /* testxzhengscrollviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A332F51BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollviewTests" */;
+			buildPhases = (
+				F6A332DA1BE3511E001F52CC /* Sources */,
+				F6A332DB1BE3511E001F52CC /* Frameworks */,
+				F6A332DC1BE3511E001F52CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A332E01BE3511E001F52CC /* PBXTargetDependency */,
+			);
+			name = testxzhengscrollviewTests;
+			productName = testxzhengscrollviewTests;
+			productReference = F6A332DE1BE3511E001F52CC /* testxzhengscrollviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6A332E81BE3511E001F52CC /* testxzhengscrollviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A332F81BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollviewUITests" */;
+			buildPhases = (
+				F6A332E51BE3511E001F52CC /* Sources */,
+				F6A332E61BE3511E001F52CC /* Frameworks */,
+				F6A332E71BE3511E001F52CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A332EB1BE3511E001F52CC /* PBXTargetDependency */,
+			);
+			name = testxzhengscrollviewUITests;
+			productName = testxzhengscrollviewUITests;
+			productReference = F6A332E91BE3511E001F52CC /* testxzhengscrollviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A332BD1BE3511E001F52CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xzheng;
+				TargetAttributes = {
+					F6A332C41BE3511E001F52CC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8KMHB7UK2A;
+					};
+					F6A332DD1BE3511E001F52CC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8KMHB7UK2A;
+						TestTargetID = F6A332C41BE3511E001F52CC;
+					};
+					F6A332E81BE3511E001F52CC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8KMHB7UK2A;
+						TestTargetID = F6A332C41BE3511E001F52CC;
+					};
+				};
+			};
+			buildConfigurationList = F6A332C01BE3511E001F52CC /* Build configuration list for PBXProject "testxzhengscrollview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A332BC1BE3511E001F52CC;
+			productRefGroup = F6A332C61BE3511E001F52CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A332C41BE3511E001F52CC /* testxzhengscrollview */,
+				F6A332DD1BE3511E001F52CC /* testxzhengscrollviewTests */,
+				F6A332E81BE3511E001F52CC /* testxzhengscrollviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A332C31BE3511E001F52CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A332D51BE3511E001F52CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332DC1BE3511E001F52CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332E71BE3511E001F52CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C73378B33678DCA9A4F877D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC76B952DF2BC4264A41CFE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55CE74C94363D924197F295 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A332C11BE3511E001F52CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A332D01BE3511E001F52CC /* ViewController.m in Sources */,
+				F6A332CD1BE3511E001F52CC /* AppDelegate.m in Sources */,
+				F6A332CA1BE3511E001F52CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332DA1BE3511E001F52CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A332E31BE3511E001F52CC /* testxzhengscrollviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A332E51BE3511E001F52CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A332EE1BE3511E001F52CC /* testxzhengscrollviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A332E01BE3511E001F52CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A332C41BE3511E001F52CC /* testxzhengscrollview */;
+			targetProxy = F6A332DF1BE3511E001F52CC /* PBXContainerItemProxy */;
+		};
+		F6A332EB1BE3511E001F52CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A332C41BE3511E001F52CC /* testxzhengscrollview */;
+			targetProxy = F6A332EA1BE3511E001F52CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6A332F01BE3511E001F52CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A332F11BE3511E001F52CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A332F31BE3511E001F52CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410F334969B03D20A1694EAF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testxzhengscrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A332F41BE3511E001F52CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF7EFC42650CA1648F2FD47 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testxzhengscrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6A332F61BE3511E001F52CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testxzhengscrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testxzhengscrollview.app/testxzhengscrollview";
+			};
+			name = Debug;
+		};
+		F6A332F71BE3511E001F52CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testxzhengscrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testxzhengscrollview.app/testxzhengscrollview";
+			};
+			name = Release;
+		};
+		F6A332F91BE3511E001F52CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testxzhengscrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testxzhengscrollview;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F6A332FA1BE3511E001F52CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testxzhengscrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecall.testxzhengscrollviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testxzhengscrollview;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A332C01BE3511E001F52CC /* Build configuration list for PBXProject "testxzhengscrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A332F01BE3511E001F52CC /* Debug */,
+				F6A332F11BE3511E001F52CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A332F21BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A332F31BE3511E001F52CC /* Debug */,
+				F6A332F41BE3511E001F52CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A332F51BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A332F61BE3511E001F52CC /* Debug */,
+				F6A332F71BE3511E001F52CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A332F81BE3511E001F52CC /* Build configuration list for PBXNativeTarget "testxzhengscrollviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A332F91BE3511E001F52CC /* Debug */,
+				F6A332FA1BE3511E001F52CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A332BD1BE3511E001F52CC /* Project object */;
+}
