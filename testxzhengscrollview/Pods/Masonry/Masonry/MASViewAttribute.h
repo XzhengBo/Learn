@@ -15,17 +15,17 @@
 @interface MASViewAttribute : NSObject
 
 /**
- *  The view which the reciever relates to. Can be nil if item is not a view.
+ *  The view which the receiver relates to. Can be nil if item is not a view.
  */
 @property (nonatomic, weak, readonly) MAS_VIEW *view;
 
 /**
- *  The item which the reciever relates to.
+ *  The item which the receiver relates to.
  */
 @property (nonatomic, weak, readonly) id item;
 
 /**
- *  The attribute which the reciever relates to
+ *  The attribute which the receiver relates to
  */
 @property (nonatomic, assign, readonly) NSLayoutAttribute layoutAttribute;
 

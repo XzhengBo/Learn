@@ -133,7 +133,7 @@
     objc_setAssociatedObject(self, @selector(mas_key), key, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-#pragma mark - heirachy
+#pragma mark - hierarchy
 
 - (instancetype)mas_closestCommonSuperview:(MAS_VIEW *)view {
     MAS_VIEW *closestCommonSuperview = nil;

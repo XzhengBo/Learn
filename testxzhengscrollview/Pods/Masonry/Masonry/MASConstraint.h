@@ -113,7 +113,7 @@
 - (MASConstraint *)and;
 
 /**
- *	Creates a new MASCompositeConstraint with the called attribute and reciever
+ *	Creates a new MASCompositeConstraint with the called attribute and receiver
  */
 - (MASConstraint *)left;
 - (MASConstraint *)top;
