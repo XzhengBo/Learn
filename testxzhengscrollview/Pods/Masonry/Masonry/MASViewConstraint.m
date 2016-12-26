@@ -319,7 +319,7 @@ static char kInstalledConstraintsKey;
     NSLayoutAttribute secondLayoutAttribute = self.secondViewAttribute.layoutAttribute;
 
     // alignment attributes must have a secondViewAttribute
-    // therefore we assume that is refering to superview
+    // therefore we assume that is referring to superview
     // eg make.left.equalTo(@10)
     if (!self.firstViewAttribute.isSizeAttribute && !self.secondViewAttribute) {
         secondLayoutItem = self.firstViewAttribute.view.superview;
